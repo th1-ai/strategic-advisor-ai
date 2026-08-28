@@ -1,0 +1,4 @@
+{
+  "step": "final",
+  "final_json": "{\"reply_markdown\": \"The spa upsell at booking project resolved with a measured impact of +EUR 18,400. Full detail: `python3 tools/project.py show p3-spa-upsell`.\"}"
+}

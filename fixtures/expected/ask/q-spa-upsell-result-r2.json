@@ -1,0 +1,9 @@
+{
+  "step": "tools",
+  "tool_calls": [
+    {
+      "name": "get_project_detail",
+      "arguments_json": "{\"project_id\": \"p3-spa-upsell\"}"
+    }
+  ]
+}

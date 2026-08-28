@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "analysis": {
+      "type": "object",
+      "properties": {
+        "conclusion": {"type": "string"},
+        "ruled_out": {"type": "array", "items": {"type": "string"}}
+      },
+      "required": ["conclusion", "ruled_out"],
+      "additionalProperties": false
+    },
+    "email": {
+      "type": "object",
+      "properties": {
+        "to_role": {"type": "string"},
+        "subject": {"type": "string"},
+        "body": {"type": "string"}
+      },
+      "required": ["to_role", "subject", "body"],
+      "additionalProperties": false
+    },
+    "marketing_action": {
+      "type": ["object", "null"],
+      "properties": {
+        "brief": {"type": "string"}
+      },
+      "required": ["brief"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["analysis", "email", "marketing_action"],
+  "additionalProperties": false
+}

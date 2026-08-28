@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "step": {
+      "type": "string",
+      "enum": ["tools", "final"]
+    },
+    "tool_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "arguments_json": {"type": "string"}
+        },
+        "required": ["name", "arguments_json"],
+        "additionalProperties": false
+      }
+    },
+    "final_json": {"type": "string"}
+  },
+  "required": ["step"],
+  "additionalProperties": false
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "item_id": "burger-aurora",
+    "item": "Aurora Burger",
+    "venue": "The Aurora Grill",
+    "price": 24.0
+  },
+  {
+    "item_id": "salmon-aurora",
+    "item": "Pan-Seared Salmon",
+    "venue": "The Aurora Grill",
+    "price": 29.0
+  },
+  {
+    "item_id": "housewine-aurora",
+    "item": "House Red Wine (glass)",
+    "venue": "The Aurora Grill",
+    "price": 9.0
+  }
+]

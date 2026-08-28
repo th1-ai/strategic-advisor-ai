@@ -1,0 +1,9 @@
+{
+  "step": "tools",
+  "tool_calls": [
+    {
+      "name": "list_projects",
+      "arguments_json": "{\"status\": \"resolved\"}"
+    }
+  ]
+}

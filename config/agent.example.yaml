@@ -1,0 +1,88 @@
+# ---------------------------------------------------------------------------
+# agent.yaml - Strategic Advisor AI's own knobs. `make setup` copies this to
+# config/agent.yaml; edit that copy, this example stays as a clean reference.
+#
+# The Strategist (nicknamed "the Strategist") runs a deterministic daily scan,
+# opens strategic projects when something shifts, and project-manages them to
+# a measured result. It never sends an email, changes a price, or launches a
+# campaign step without your sign-off - see docs/safety.md. The knobs below
+# shape the scan's thresholds, the rule toggles, and the project machinery.
+# ---------------------------------------------------------------------------
+
+# Which of pms/email/messaging this agent actually READS from - narrows the
+# "sample data" warning (core.adapters.sample_data_warning) to the adapters
+# that matter here. The Strategist never calls `get_pms()` at all, and its
+# `get_email()` / `get_messaging()` calls are both WRITE-only (`email.send`
+# for a step's email, `messaging.notify_staff` for a marketing-action brief
+# alert) - it never reads a reservation, an inbox or a chat through them. Its
+# own numbers come from `data/imports/*.csv` (tools/data.py), not an
+# adapter, so leaving `systems.pms/email/messaging.adapter: mock` in
+# hotel.yaml is never a sample-data signal for this agent. See
+# docs/integrations.md.
+systems_used: []
+
+persona:
+  name: "the Strategist"
+
+# On/off switches the scan checks (tools/scan_engine.py). A rule id missing
+# from this block counts as ENABLED, matching the source engine's behaviour -
+# see docs/how-it-works.md "Rules".
+rules:
+  yoy-baseline: true          # check occupancy vs the same month last year
+  rule-out-external: true     # add the external-causes checklist line (see
+                               # docs/integrations.md - this is not a real
+                               # news/events/weather feed)
+  verify-cross-sources: true  # append the cross-check sentence to the verdict
+  competitor-watch: true      # scan competitor price points for opportunities
+
+# Every threshold the scan compares against. Tune these per property; none
+# of them is a magic number buried in code (spec open question 6).
+thresholds:
+  revpar_warn_pct: -8.0            # RevPAR, last 7 days vs prior 7
+  occupancy_warn_pts: -5.0         # occupancy vs same month last year, in points
+  dept_pace_warn_pct: -5.0         # department revenue pace vs last month
+  review_negative_warn: 2          # negative reviews (rating <= 3) in the last 7 days
+  competitor_opportunity_pct: 8.0  # a competitor item move this big or more
+  suppression_days: 14             # a resolved fix project still covers its metric
+  rollback_threshold_pct: 10.0     # a price experiment's demand drop that would
+                                    # trigger a rollback recommendation
+
+# Step templates for a newly-opened project (tools/project.py:open_project).
+# Deterministic - the model never chooses which steps exist or their order,
+# only the prose inside analysis/email/marketing_action (task draft_project).
+project_templates:
+  fix: [analysis, email, wait, checkpoint, marketing_action, tracker, resolve]
+  growth: [analysis, email, wait, pos_update, measure, resolve]
+
+# wait steps: how long to wait for a reply before a human should chase again.
+wait:
+  default_days: 3
+
+# tracker steps: how many new positive reviews count as "goal reached".
+tracker:
+  target_positive_reviews: 20
+
+# The bounded ask loop (workflows/15-ask.md, tools/tool_loop.py).
+tool_loop:
+  max_rounds: 6
+  max_tool_result_chars: 12000
+  max_tool_arg_echo_chars: 600
+
+# A local safety cap on ad-hoc questions, same shape as Portfolio Analyst
+# AI's. Fails OPEN: a counter read/write error never blocks a real question.
+rate_limit:
+  max_questions_per_day: 200
+
+reservations:
+  max_rows: 25
+
+knowledge_search:
+  top_k: 8
+
+# How often the scan and the project maintenance sweep run.
+# `python3 tools/schedule.py --all` turns this into a cron/launchd/systemd
+# snippet with the right command already filled in.
+schedule:
+  daily_scan:
+    cadence: "morning"                        # 07:00 daily
+    command: "tools/run.py --once --scan"

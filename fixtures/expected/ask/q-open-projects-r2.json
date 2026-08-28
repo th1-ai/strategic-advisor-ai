@@ -1,0 +1,4 @@
+{
+  "step": "final",
+  "final_json": "{\"reply_markdown\": \"There is at least one active strategic project right now. Run `python3 tools/project.py list` for the full list with each one's next step, or `show <id>` for the detail.\"}"
+}

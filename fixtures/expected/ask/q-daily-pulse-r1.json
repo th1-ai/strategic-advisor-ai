@@ -1,0 +1,9 @@
+{
+  "step": "tools",
+  "tool_calls": [
+    {
+      "name": "get_daily_pulse",
+      "arguments_json": "{}"
+    }
+  ]
+}

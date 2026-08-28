@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "narrative": {"type": "string"}
+  },
+  "required": ["narrative"],
+  "additionalProperties": false
+}

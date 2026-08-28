@@ -1,0 +1,114 @@
+[
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Chargrilled Burger",
+    "price": 23.0
+  },
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Chargrilled Burger",
+    "price": 27.0
+  },
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Pan-Seared Salmon",
+    "price": 28.0
+  },
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Pan-Seared Salmon",
+    "price": 28.5
+  },
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-05-01",
+    "category": "drink",
+    "item": "House Red Wine (glass)",
+    "price": 8.5
+  },
+  {
+    "competitor": "Bay View Bistro",
+    "scraped_on": "2026-06-10",
+    "category": "drink",
+    "item": "House Red Wine (glass)",
+    "price": 8.5
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Classic Burger",
+    "price": 22.0
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Classic Burger",
+    "price": 25.5
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Grilled Salmon Fillet",
+    "price": 27.0
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Grilled Salmon Fillet",
+    "price": 27.5
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-05-01",
+    "category": "drink",
+    "item": "House Red Wine (glass)",
+    "price": 9.0
+  },
+  {
+    "competitor": "Harbourside Grill",
+    "scraped_on": "2026-06-10",
+    "category": "drink",
+    "item": "House Red Wine (glass)",
+    "price": 9.5
+  },
+  {
+    "competitor": "The Coastal Table",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Wagyu-Style Burger",
+    "price": 26.0
+  },
+  {
+    "competitor": "The Coastal Table",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Wagyu-Style Burger",
+    "price": 26.5
+  },
+  {
+    "competitor": "The Coastal Table",
+    "scraped_on": "2026-05-01",
+    "category": "food",
+    "item": "Seared Salmon",
+    "price": 29.0
+  },
+  {
+    "competitor": "The Coastal Table",
+    "scraped_on": "2026-06-10",
+    "category": "food",
+    "item": "Seared Salmon",
+    "price": 29.0
+  }
+]

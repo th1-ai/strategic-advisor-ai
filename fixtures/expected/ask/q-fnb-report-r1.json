@@ -1,0 +1,13 @@
+{
+  "step": "tools",
+  "tool_calls": [
+    {
+      "name": "get_financial_metrics",
+      "arguments_json": "{\"window\": \"month\"}"
+    },
+    {
+      "name": "generate_report",
+      "arguments_json": "{\"title\": \"F&B performance this month\", \"subtitle\": \"Month to date\", \"markdown\": \"F&B revenue is running below last month's pace. See the daily scan for the department-by-department breakdown and the open project addressing it.\", \"kpis\": [{\"label\": \"F&B revenue MTD\", \"value\": \"see chart\"}], \"chart\": {\"type\": \"line\", \"series\": [{\"name\": \"F&B revenue\", \"points\": []}]}}"
+    }
+  ]
+}

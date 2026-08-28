@@ -1,0 +1,18 @@
+{
+  "analysis": {
+    "conclusion": "F&B revenue is pacing about 14 percent below last month, concentrated in dinner covers rather than breakfast or lunch. The most likely explanation is a service issue rather than demand: reviews mention slow service in the same window.",
+    "ruled_out": [
+      "No change in room occupancy that would explain fewer diners",
+      "No local event or holiday that would explain a dinner-only dip",
+      "No menu or price change in The Aurora Grill this month"
+    ]
+  },
+  "email": {
+    "to_role": "General Manager",
+    "subject": "F&B revenue down 14% this month - dinner service looks like the cause",
+    "body": "Hi,\n\nThe daily scan flagged F&B revenue pacing about 14% below last month. The dip is concentrated at dinner, and a few recent reviews mention slow service and food arriving cold.\n\nI'd like to check with the floor team this week on staffing and ticket times at dinner, and put together a short recovery plan - a front-desk mention or a small offer to bring diners back while service is fixed.\n\nCan you confirm dinner staffing has not changed, and let me know if you've heard anything from the floor?\n\nThanks,\nthe Strategist"
+  },
+  "marketing_action": {
+    "brief": "Front-desk script: when guests ask about dinner, mention a complimentary dessert with any main course through the end of the month while we tighten up service. Keep it low-key, no signage, offer ends once the recovery tracker hits target."
+  }
+}

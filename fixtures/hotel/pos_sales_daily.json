@@ -1,0 +1,436 @@
+[
+  {
+    "date": "2026-05-01",
+    "item_id": "burger-aurora",
+    "units": 22.0,
+    "revenue": 528.0,
+    "covers": 118.0
+  },
+  {
+    "date": "2026-05-02",
+    "item_id": "burger-aurora",
+    "units": 22.9,
+    "revenue": 549.6,
+    "covers": 121.5
+  },
+  {
+    "date": "2026-05-03",
+    "item_id": "burger-aurora",
+    "units": 23.8,
+    "revenue": 571.2,
+    "covers": 124.8
+  },
+  {
+    "date": "2026-05-04",
+    "item_id": "burger-aurora",
+    "units": 23.4,
+    "revenue": 561.6,
+    "covers": 128.0
+  },
+  {
+    "date": "2026-05-05",
+    "item_id": "burger-aurora",
+    "units": 24.1,
+    "revenue": 578.4,
+    "covers": 124.7
+  },
+  {
+    "date": "2026-05-06",
+    "item_id": "burger-aurora",
+    "units": 24.7,
+    "revenue": 592.8,
+    "covers": 127.1
+  },
+  {
+    "date": "2026-05-07",
+    "item_id": "burger-aurora",
+    "units": 24.0,
+    "revenue": 576.0,
+    "covers": 129.0
+  },
+  {
+    "date": "2026-05-08",
+    "item_id": "burger-aurora",
+    "units": 24.4,
+    "revenue": 585.6,
+    "covers": 130.4
+  },
+  {
+    "date": "2026-05-09",
+    "item_id": "burger-aurora",
+    "units": 24.6,
+    "revenue": 590.4,
+    "covers": 125.3
+  },
+  {
+    "date": "2026-05-10",
+    "item_id": "burger-aurora",
+    "units": 23.6,
+    "revenue": 566.4,
+    "covers": 125.7
+  },
+  {
+    "date": "2026-05-11",
+    "item_id": "burger-aurora",
+    "units": 23.6,
+    "revenue": 566.4,
+    "covers": 125.8
+  },
+  {
+    "date": "2026-05-12",
+    "item_id": "burger-aurora",
+    "units": 23.6,
+    "revenue": 566.4,
+    "covers": 125.6
+  },
+  {
+    "date": "2026-05-13",
+    "item_id": "burger-aurora",
+    "units": 22.3,
+    "revenue": 535.2,
+    "covers": 119.1
+  },
+  {
+    "date": "2026-05-14",
+    "item_id": "burger-aurora",
+    "units": 22.2,
+    "revenue": 532.8,
+    "covers": 118.6
+  },
+  {
+    "date": "2026-05-15",
+    "item_id": "burger-aurora",
+    "units": 22.1,
+    "revenue": 530.4,
+    "covers": 118.2
+  },
+  {
+    "date": "2026-05-16",
+    "item_id": "burger-aurora",
+    "units": 20.9,
+    "revenue": 501.6,
+    "covers": 117.9
+  },
+  {
+    "date": "2026-05-17",
+    "item_id": "burger-aurora",
+    "units": 20.9,
+    "revenue": 501.6,
+    "covers": 111.9
+  },
+  {
+    "date": "2026-05-18",
+    "item_id": "burger-aurora",
+    "units": 21.0,
+    "revenue": 504.0,
+    "covers": 112.3
+  },
+  {
+    "date": "2026-05-19",
+    "item_id": "burger-aurora",
+    "units": 20.0,
+    "revenue": 480.0,
+    "covers": 113.2
+  },
+  {
+    "date": "2026-05-20",
+    "item_id": "burger-aurora",
+    "units": 20.4,
+    "revenue": 489.6,
+    "covers": 114.5
+  },
+  {
+    "date": "2026-05-21",
+    "item_id": "burger-aurora",
+    "units": 20.9,
+    "revenue": 501.6,
+    "covers": 110.3
+  },
+  {
+    "date": "2026-05-22",
+    "item_id": "burger-aurora",
+    "units": 20.3,
+    "revenue": 487.2,
+    "covers": 112.6
+  },
+  {
+    "date": "2026-05-23",
+    "item_id": "burger-aurora",
+    "units": 21.0,
+    "revenue": 504.0,
+    "covers": 115.4
+  },
+  {
+    "date": "2026-05-24",
+    "item_id": "burger-aurora",
+    "units": 21.8,
+    "revenue": 523.2,
+    "covers": 118.4
+  },
+  {
+    "date": "2026-05-25",
+    "item_id": "burger-aurora",
+    "units": 21.4,
+    "revenue": 513.6,
+    "covers": 115.8
+  },
+  {
+    "date": "2026-05-26",
+    "item_id": "burger-aurora",
+    "units": 22.3,
+    "revenue": 535.2,
+    "covers": 119.2
+  },
+  {
+    "date": "2026-05-27",
+    "item_id": "burger-aurora",
+    "units": 23.2,
+    "revenue": 556.8,
+    "covers": 122.7
+  },
+  {
+    "date": "2026-05-28",
+    "item_id": "burger-aurora",
+    "units": 22.9,
+    "revenue": 549.6,
+    "covers": 126.1
+  },
+  {
+    "date": "2026-05-29",
+    "item_id": "burger-aurora",
+    "units": 23.7,
+    "revenue": 568.8,
+    "covers": 123.3
+  },
+  {
+    "date": "2026-05-30",
+    "item_id": "burger-aurora",
+    "units": 24.4,
+    "revenue": 585.6,
+    "covers": 126.1
+  },
+  {
+    "date": "2026-05-31",
+    "item_id": "burger-aurora",
+    "units": 23.9,
+    "revenue": 573.6,
+    "covers": 128.5
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "burger-aurora",
+    "units": 21.7,
+    "revenue": 564.2,
+    "covers": 117.0
+  },
+  {
+    "date": "2026-07-02",
+    "item_id": "burger-aurora",
+    "units": 22.6,
+    "revenue": 587.6,
+    "covers": 120.5
+  },
+  {
+    "date": "2026-07-03",
+    "item_id": "burger-aurora",
+    "units": 23.5,
+    "revenue": 611.0,
+    "covers": 123.8
+  },
+  {
+    "date": "2026-07-04",
+    "item_id": "burger-aurora",
+    "units": 23.1,
+    "revenue": 600.6,
+    "covers": 127.0
+  },
+  {
+    "date": "2026-07-05",
+    "item_id": "burger-aurora",
+    "units": 23.8,
+    "revenue": 618.8,
+    "covers": 123.7
+  },
+  {
+    "date": "2026-07-06",
+    "item_id": "burger-aurora",
+    "units": 24.4,
+    "revenue": 634.4,
+    "covers": 126.1
+  },
+  {
+    "date": "2026-07-07",
+    "item_id": "burger-aurora",
+    "units": 23.7,
+    "revenue": 616.2,
+    "covers": 128.0
+  },
+  {
+    "date": "2026-07-08",
+    "item_id": "burger-aurora",
+    "units": 24.1,
+    "revenue": 626.6,
+    "covers": 129.4
+  },
+  {
+    "date": "2026-07-09",
+    "item_id": "burger-aurora",
+    "units": 24.3,
+    "revenue": 631.8,
+    "covers": 124.3
+  },
+  {
+    "date": "2026-07-10",
+    "item_id": "burger-aurora",
+    "units": 23.3,
+    "revenue": 605.8,
+    "covers": 124.7
+  },
+  {
+    "date": "2026-07-11",
+    "item_id": "burger-aurora",
+    "units": 23.3,
+    "revenue": 605.8,
+    "covers": 124.8
+  },
+  {
+    "date": "2026-07-12",
+    "item_id": "burger-aurora",
+    "units": 23.3,
+    "revenue": 605.8,
+    "covers": 124.6
+  },
+  {
+    "date": "2026-07-13",
+    "item_id": "burger-aurora",
+    "units": 22.0,
+    "revenue": 572.0,
+    "covers": 118.1
+  },
+  {
+    "date": "2026-07-14",
+    "item_id": "burger-aurora",
+    "units": 21.9,
+    "revenue": 569.4,
+    "covers": 117.6
+  },
+  {
+    "date": "2026-07-15",
+    "item_id": "burger-aurora",
+    "units": 21.8,
+    "revenue": 566.8,
+    "covers": 117.2
+  },
+  {
+    "date": "2026-07-16",
+    "item_id": "burger-aurora",
+    "units": 20.6,
+    "revenue": 535.6,
+    "covers": 116.9
+  },
+  {
+    "date": "2026-07-17",
+    "item_id": "burger-aurora",
+    "units": 20.6,
+    "revenue": 535.6,
+    "covers": 110.9
+  },
+  {
+    "date": "2026-07-18",
+    "item_id": "burger-aurora",
+    "units": 20.7,
+    "revenue": 538.2,
+    "covers": 111.3
+  },
+  {
+    "date": "2026-07-19",
+    "item_id": "burger-aurora",
+    "units": 19.7,
+    "revenue": 512.2,
+    "covers": 112.2
+  },
+  {
+    "date": "2026-07-20",
+    "item_id": "burger-aurora",
+    "units": 20.1,
+    "revenue": 522.6,
+    "covers": 113.5
+  },
+  {
+    "date": "2026-07-21",
+    "item_id": "burger-aurora",
+    "units": 20.6,
+    "revenue": 535.6,
+    "covers": 109.3
+  },
+  {
+    "date": "2026-07-22",
+    "item_id": "burger-aurora",
+    "units": 20.0,
+    "revenue": 520.0,
+    "covers": 111.6
+  },
+  {
+    "date": "2026-07-23",
+    "item_id": "burger-aurora",
+    "units": 20.7,
+    "revenue": 538.2,
+    "covers": 114.4
+  },
+  {
+    "date": "2026-07-24",
+    "item_id": "burger-aurora",
+    "units": 21.5,
+    "revenue": 559.0,
+    "covers": 117.4
+  },
+  {
+    "date": "2026-07-25",
+    "item_id": "burger-aurora",
+    "units": 21.1,
+    "revenue": 548.6,
+    "covers": 114.8
+  },
+  {
+    "date": "2026-07-26",
+    "item_id": "burger-aurora",
+    "units": 22.0,
+    "revenue": 572.0,
+    "covers": 118.2
+  },
+  {
+    "date": "2026-07-27",
+    "item_id": "burger-aurora",
+    "units": 22.9,
+    "revenue": 595.4,
+    "covers": 121.7
+  },
+  {
+    "date": "2026-07-28",
+    "item_id": "burger-aurora",
+    "units": 22.6,
+    "revenue": 587.6,
+    "covers": 125.1
+  },
+  {
+    "date": "2026-07-29",
+    "item_id": "burger-aurora",
+    "units": 23.4,
+    "revenue": 608.4,
+    "covers": 122.3
+  },
+  {
+    "date": "2026-07-30",
+    "item_id": "burger-aurora",
+    "units": 24.1,
+    "revenue": 626.6,
+    "covers": 125.1
+  },
+  {
+    "date": "2026-07-31",
+    "item_id": "burger-aurora",
+    "units": 23.6,
+    "revenue": 613.6,
+    "covers": 127.5
+  }
+]
